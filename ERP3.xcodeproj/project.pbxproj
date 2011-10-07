@@ -18,6 +18,9 @@
 		10CEC993143F0D5700D791CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10CEC991143F0D5700D791CA /* MainWindow.xib */; };
 		10CEC996143F0D5700D791CA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CEC995143F0D5700D791CA /* RootViewController.m */; };
 		10CEC999143F0D5700D791CA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10CEC997143F0D5700D791CA /* RootViewController.xib */; };
+		10CEC9A0143F0D7600D791CA /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEC99F143F0D7600D791CA /* QuickLook.framework */; };
+		10CEC9A2143F0D8200D791CA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEC9A1143F0D8200D791CA /* MessageUI.framework */; };
+		10CEC9A4143F0D8B00D791CA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEC9A3143F0D8B00D791CA /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,17 +29,20 @@
 		10CEC97C143F0D5700D791CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10CEC97E143F0D5700D791CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		10CEC980143F0D5700D791CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		10CEC984143F0D5700D791CA /* ERP3-Info.plist */ = {isa = PBXFileReference; path = "ERP3-Info.plist"; sourceTree = "<group>"; };
+		10CEC984143F0D5700D791CA /* ERP3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ERP3-Info.plist"; sourceTree = "<group>"; };
 		10CEC986143F0D5700D791CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10CEC988143F0D5700D791CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		10CEC98A143F0D5700D791CA /* ERP3-Prefix.pch */ = {isa = PBXFileReference; path = "ERP3-Prefix.pch"; sourceTree = "<group>"; };
-		10CEC98B143F0D5700D791CA /* ERP3AppDelegate.h */ = {isa = PBXFileReference; path = ERP3AppDelegate.h; sourceTree = "<group>"; };
+		10CEC98A143F0D5700D791CA /* ERP3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ERP3-Prefix.pch"; sourceTree = "<group>"; };
+		10CEC98B143F0D5700D791CA /* ERP3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERP3AppDelegate.h; sourceTree = "<group>"; };
 		10CEC98C143F0D5700D791CA /* ERP3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERP3AppDelegate.m; sourceTree = "<group>"; };
 		10CEC98F143F0D5700D791CA /* ERP3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ERP3.xcdatamodel; sourceTree = "<group>"; };
 		10CEC992143F0D5700D791CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		10CEC994143F0D5700D791CA /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		10CEC994143F0D5700D791CA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		10CEC995143F0D5700D791CA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		10CEC998143F0D5700D791CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		10CEC99F143F0D7600D791CA /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		10CEC9A1143F0D8200D791CA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		10CEC9A3143F0D8B00D791CA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CEC9A4143F0D8B00D791CA /* CoreText.framework in Frameworks */,
+				10CEC9A2143F0D8200D791CA /* MessageUI.framework in Frameworks */,
+				10CEC9A0143F0D7600D791CA /* QuickLook.framework in Frameworks */,
 				10CEC97B143F0D5700D791CA /* UIKit.framework in Frameworks */,
 				10CEC97D143F0D5700D791CA /* Foundation.framework in Frameworks */,
 				10CEC97F143F0D5700D791CA /* CoreGraphics.framework in Frameworks */,
@@ -74,6 +83,9 @@
 		10CEC979143F0D5700D791CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10CEC9A3143F0D8B00D791CA /* CoreText.framework */,
+				10CEC9A1143F0D8200D791CA /* MessageUI.framework */,
+				10CEC99F143F0D7600D791CA /* QuickLook.framework */,
 				10CEC97A143F0D5700D791CA /* UIKit.framework */,
 				10CEC97C143F0D5700D791CA /* Foundation.framework */,
 				10CEC97E143F0D5700D791CA /* CoreGraphics.framework */,
@@ -292,6 +304,7 @@
 				10CEC99E143F0D5700D791CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
