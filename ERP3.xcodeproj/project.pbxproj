@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CEC97B143F0D5700D791CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEC97A143F0D5700D791CA /* UIKit.framework */; };
+		10CEC97D143F0D5700D791CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEC97C143F0D5700D791CA /* Foundation.framework */; };
+		10CEC97F143F0D5700D791CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEC97E143F0D5700D791CA /* CoreGraphics.framework */; };
+		10CEC981143F0D5700D791CA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEC980143F0D5700D791CA /* CoreData.framework */; };
+		10CEC987143F0D5700D791CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10CEC985143F0D5700D791CA /* InfoPlist.strings */; };
+		10CEC989143F0D5700D791CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CEC988143F0D5700D791CA /* main.m */; };
+		10CEC98D143F0D5700D791CA /* ERP3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CEC98C143F0D5700D791CA /* ERP3AppDelegate.m */; };
+		10CEC990143F0D5700D791CA /* ERP3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10CEC98E143F0D5700D791CA /* ERP3.xcdatamodeld */; };
+		10CEC993143F0D5700D791CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10CEC991143F0D5700D791CA /* MainWindow.xib */; };
+		10CEC996143F0D5700D791CA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CEC995143F0D5700D791CA /* RootViewController.m */; };
+		10CEC999143F0D5700D791CA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10CEC997143F0D5700D791CA /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10CEC976143F0D5700D791CA /* ERP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERP3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CEC97A143F0D5700D791CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10CEC97C143F0D5700D791CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10CEC97E143F0D5700D791CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10CEC980143F0D5700D791CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		10CEC984143F0D5700D791CA /* ERP3-Info.plist */ = {isa = PBXFileReference; path = "ERP3-Info.plist"; sourceTree = "<group>"; };
+		10CEC986143F0D5700D791CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10CEC988143F0D5700D791CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10CEC98A143F0D5700D791CA /* ERP3-Prefix.pch */ = {isa = PBXFileReference; path = "ERP3-Prefix.pch"; sourceTree = "<group>"; };
+		10CEC98B143F0D5700D791CA /* ERP3AppDelegate.h */ = {isa = PBXFileReference; path = ERP3AppDelegate.h; sourceTree = "<group>"; };
+		10CEC98C143F0D5700D791CA /* ERP3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERP3AppDelegate.m; sourceTree = "<group>"; };
+		10CEC98F143F0D5700D791CA /* ERP3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ERP3.xcdatamodel; sourceTree = "<group>"; };
+		10CEC992143F0D5700D791CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		10CEC994143F0D5700D791CA /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		10CEC995143F0D5700D791CA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		10CEC998143F0D5700D791CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CEC973143F0D5700D791CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEC97B143F0D5700D791CA /* UIKit.framework in Frameworks */,
+				10CEC97D143F0D5700D791CA /* Foundation.framework in Frameworks */,
+				10CEC97F143F0D5700D791CA /* CoreGraphics.framework in Frameworks */,
+				10CEC981143F0D5700D791CA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CEC96B143F0D5700D791CA = {
+			isa = PBXGroup;
+			children = (
+				10CEC982143F0D5700D791CA /* ERP3 */,
+				10CEC979143F0D5700D791CA /* Frameworks */,
+				10CEC977143F0D5700D791CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10CEC977143F0D5700D791CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CEC976143F0D5700D791CA /* ERP3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10CEC979143F0D5700D791CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10CEC97A143F0D5700D791CA /* UIKit.framework */,
+				10CEC97C143F0D5700D791CA /* Foundation.framework */,
+				10CEC97E143F0D5700D791CA /* CoreGraphics.framework */,
+				10CEC980143F0D5700D791CA /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10CEC982143F0D5700D791CA /* ERP3 */ = {
+			isa = PBXGroup;
+			children = (
+				10CEC98B143F0D5700D791CA /* ERP3AppDelegate.h */,
+				10CEC98C143F0D5700D791CA /* ERP3AppDelegate.m */,
+				10CEC991143F0D5700D791CA /* MainWindow.xib */,
+				10CEC994143F0D5700D791CA /* RootViewController.h */,
+				10CEC995143F0D5700D791CA /* RootViewController.m */,
+				10CEC997143F0D5700D791CA /* RootViewController.xib */,
+				10CEC98E143F0D5700D791CA /* ERP3.xcdatamodeld */,
+				10CEC983143F0D5700D791CA /* Supporting Files */,
+			);
+			path = ERP3;
+			sourceTree = "<group>";
+		};
+		10CEC983143F0D5700D791CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10CEC984143F0D5700D791CA /* ERP3-Info.plist */,
+				10CEC985143F0D5700D791CA /* InfoPlist.strings */,
+				10CEC988143F0D5700D791CA /* main.m */,
+				10CEC98A143F0D5700D791CA /* ERP3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10CEC975143F0D5700D791CA /* ERP3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CEC99C143F0D5700D791CA /* Build configuration list for PBXNativeTarget "ERP3" */;
+			buildPhases = (
+				10CEC972143F0D5700D791CA /* Sources */,
+				10CEC973143F0D5700D791CA /* Frameworks */,
+				10CEC974143F0D5700D791CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERP3;
+			productName = ERP3;
+			productReference = 10CEC976143F0D5700D791CA /* ERP3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10CEC96D143F0D5700D791CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "no excuse accounting as";
+			};
+			buildConfigurationList = 10CEC970143F0D5700D791CA /* Build configuration list for PBXProject "ERP3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10CEC96B143F0D5700D791CA;
+			productRefGroup = 10CEC977143F0D5700D791CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CEC975143F0D5700D791CA /* ERP3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10CEC974143F0D5700D791CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEC987143F0D5700D791CA /* InfoPlist.strings in Resources */,
+				10CEC993143F0D5700D791CA /* MainWindow.xib in Resources */,
+				10CEC999143F0D5700D791CA /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CEC972143F0D5700D791CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEC989143F0D5700D791CA /* main.m in Sources */,
+				10CEC98D143F0D5700D791CA /* ERP3AppDelegate.m in Sources */,
+				10CEC990143F0D5700D791CA /* ERP3.xcdatamodeld in Sources */,
+				10CEC996143F0D5700D791CA /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10CEC985143F0D5700D791CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10CEC986143F0D5700D791CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10CEC991143F0D5700D791CA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10CEC992143F0D5700D791CA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		10CEC997143F0D5700D791CA /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10CEC998143F0D5700D791CA /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10CEC99A143F0D5700D791CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10CEC99B143F0D5700D791CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10CEC99D143F0D5700D791CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ERP3/ERP3-Prefix.pch";
+				INFOPLIST_FILE = "ERP3/ERP3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10CEC99E143F0D5700D791CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ERP3/ERP3-Prefix.pch";
+				INFOPLIST_FILE = "ERP3/ERP3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10CEC970143F0D5700D791CA /* Build configuration list for PBXProject "ERP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEC99A143F0D5700D791CA /* Debug */,
+				10CEC99B143F0D5700D791CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CEC99C143F0D5700D791CA /* Build configuration list for PBXNativeTarget "ERP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEC99D143F0D5700D791CA /* Debug */,
+				10CEC99E143F0D5700D791CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10CEC98E143F0D5700D791CA /* ERP3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10CEC98F143F0D5700D791CA /* ERP3.xcdatamodel */,
+			);
+			currentVersion = 10CEC98F143F0D5700D791CA /* ERP3.xcdatamodel */;
+			path = ERP3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10CEC96D143F0D5700D791CA /* Project object */;
+}
